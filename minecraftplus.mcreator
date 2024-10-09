@@ -25,6 +25,18 @@
           "src/main/resources/assets/minecraftplus/models/item/pearslices.json"
         ]
       }
+    },
+    {
+      "name": "AppleSliceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_slice_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/recipes/apple_slice_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
