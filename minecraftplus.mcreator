@@ -8,8 +8,8 @@
       "registry_name": "apple_slice",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minecraftplus/models/item/apple_slice.json",
-          "src/main/java/net/mcreator/minecraftplus/item/AppleSliceItem.java"
+          "src/main/java/net/mcreator/minecraftplus/item/AppleSliceItem.java",
+          "src/main/resources/assets/minecraftplus/models/item/apple_slice.json"
         ]
       }
     }
@@ -19,7 +19,9 @@
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.minecraftplus.apple_slice": "Apple Slice"
+    }
   },
   "foldersRoot": {
     "name": "~",
