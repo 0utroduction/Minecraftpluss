@@ -130,6 +130,12 @@
       },
       {
         "value": "Blocks.DEEPSLATE"
+      },
+      {
+        "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.STONE#0"
       }
     ],
     "generationShape": "UNIFORM",
