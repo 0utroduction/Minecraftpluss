@@ -12,6 +12,19 @@
           "src/main/resources/assets/minecraftplus/models/item/apple_slice.json"
         ]
       }
+    },
+    {
+      "name": "Pearslices",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearslices",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/item/PearslicesItem.java",
+          "src/main/resources/assets/minecraftplus/models/item/pearslices.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -20,7 +33,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.minecraftplus.apple_slice": "Apple Slice"
+      "item.minecraftplus.apple_slice": "Apple Slice",
+      "item.minecraftplus.pearslices": "Pear slices"
     }
   },
   "foldersRoot": {
