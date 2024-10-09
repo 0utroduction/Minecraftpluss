@@ -121,6 +121,36 @@
           "src/main/resources/data/minecraftplus/recipes/uranium_ore_smelting.json"
         ]
       }
+    },
+    {
+      "name": "UraniumPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/procedures/UraniumPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

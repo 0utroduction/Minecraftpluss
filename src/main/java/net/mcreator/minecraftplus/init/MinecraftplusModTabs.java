@@ -34,6 +34,7 @@ public class MinecraftplusModTabs {
 
 			tabData.accept(MinecraftplusModItems.APPLE_SLICE.get());
 			tabData.accept(MinecraftplusModItems.PEARSLICES.get());
+			tabData.accept(MinecraftplusModItems.URANIUM.get());
 
 		}
 	}
