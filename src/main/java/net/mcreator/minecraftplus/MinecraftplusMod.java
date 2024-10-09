@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.minecraftplus.init.MinecraftplusModTabs;
 import net.mcreator.minecraftplus.init.MinecraftplusModItems;
 
 import java.util.function.Supplier;
@@ -40,6 +41,8 @@ public class MinecraftplusMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		MinecraftplusModItems.REGISTRY.register(bus);
+
+		MinecraftplusModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

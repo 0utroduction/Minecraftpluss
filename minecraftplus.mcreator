@@ -1,33 +1,15 @@
 {
   "mod_elements": [
     {
-      "name": "Parlajeet",
+      "name": "AppleSlice",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "parlajeet",
+      "registry_name": "apple_slice",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minecraftplus/item/ParlajeetItem.java",
-          "src/main/resources/assets/minecraftplus/models/item/parlajeet.json"
-        ]
-      }
-    },
-    {
-      "name": "Poop",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "poop",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minecraftplus/procedures/PoopProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
+          "src/main/resources/assets/minecraftplus/models/item/apple_slice.json",
+          "src/main/java/net/mcreator/minecraftplus/item/AppleSliceItem.java"
         ]
       }
     }
@@ -38,7 +20,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.minecraftplus.parlajeet": "Parlajeet"
+      "item.minecraftplus.apple_slice": "Apple Slice"
     }
   },
   "foldersRoot": {
