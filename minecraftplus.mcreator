@@ -151,6 +151,29 @@
           }
         ]
       }
+    },
+    {
+      "name": "DiamondMedallion",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_medallion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecraftplus/models/item/diamond_medallion.json",
+          "src/main/java/net/mcreator/minecraftplus/item/DiamondMedallionItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Medallions",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medallions",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -168,9 +191,11 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.minecraftplus.diamond_medallion": "Diamond Medallion",
       "block.minecraftplus.uranium_block": "Block of Uranium",
       "item.minecraftplus.apple_slice": "Apple Slice",
       "block.minecraftplus.uranium_ore": "Uranium Ore",
+      "item_group.minecraftplus.medallions": "Medallions",
       "item.minecraftplus.pearslices": "Pear Slice",
       "item.minecraftplus.uranium": "Uranium"
     }
