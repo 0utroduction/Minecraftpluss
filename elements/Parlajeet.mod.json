@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 0,
     "texture": "minecraft:clay_ball",
-    "customModelName": "Normal",
+    "customModelName": "Tool",
     "customProperties": {},
     "states": [],
     "name": "Parlajeet",
