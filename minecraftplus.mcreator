@@ -8,8 +8,8 @@
       "registry_name": "parlajeet",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minecraftplus/item/ParlajeetItem.java",
-          "src/main/resources/assets/minecraftplus/models/item/parlajeet.json"
+          "src/main/resources/assets/minecraftplus/models/item/parlajeet.json",
+          "src/main/java/net/mcreator/minecraftplus/item/ParlajeetItem.java"
         ]
       }
     }
