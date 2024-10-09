@@ -24,6 +24,7 @@ public class MinecraftplusModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 
 			tabData.accept(MinecraftplusModItems.APPLE_SLICE.get());
+			tabData.accept(MinecraftplusModItems.PEARSLICES.get());
 
 		}
 	}

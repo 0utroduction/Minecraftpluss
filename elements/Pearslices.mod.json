@@ -7,9 +7,13 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Pear slices",
+    "name": "Pear Slice",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "FOOD"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,
