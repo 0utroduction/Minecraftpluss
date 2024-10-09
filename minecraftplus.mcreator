@@ -1,0 +1,47 @@
+{
+  "mod_elements": [
+    {
+      "name": "Parlajeet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parlajeet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/item/ParlajeetItem.java",
+          "src/main/resources/assets/minecraftplus/models/item/parlajeet.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.minecraftplus.parlajeet": "Parlajeet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minecraftplus",
+    "modName": "Minecraftplus",
+    "version": "1.0.0",
+    "author": "Outroduction, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.minecraftplus"
+  },
+  "mcreatorVersion": 202400340615
+}
