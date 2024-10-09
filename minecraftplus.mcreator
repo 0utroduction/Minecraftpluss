@@ -12,6 +12,24 @@
           "src/main/resources/assets/minecraftplus/models/item/parlajeet.json"
         ]
       }
+    },
+    {
+      "name": "Poop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/procedures/PoopProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
