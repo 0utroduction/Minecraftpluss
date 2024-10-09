@@ -1,4 +1,7 @@
 {
+  "block.minecraftplus.uranium_block": "Block of Uranium",
   "item.minecraftplus.apple_slice": "Apple Slice",
-  "item.minecraftplus.pearslices": "Pear Slice"
+  "block.minecraftplus.uranium_ore": "Uranium Ore",
+  "item.minecraftplus.pearslices": "Pear Slice",
+  "item.minecraftplus.uranium": "Uranium"
 }

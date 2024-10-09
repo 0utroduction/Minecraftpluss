@@ -37,16 +37,112 @@
           "src/main/resources/data/minecraftplus/recipes/apple_slice_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecraftplus/models/item/uranium.json",
+          "src/main/java/net/mcreator/minecraftplus/item/UraniumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecraftplus/models/item/uranium_ore.json",
+          "src/main/resources/assets/minecraftplus/models/block/uranium_ore.json",
+          "src/main/resources/data/minecraftplus/loot_tables/blocks/uranium_ore.json",
+          "src/main/java/net/mcreator/minecraftplus/block/UraniumOreBlock.java",
+          "src/main/resources/data/minecraftplus/worldgen/configured_feature/uranium_ore.json",
+          "src/main/resources/assets/minecraftplus/blockstates/uranium_ore.json",
+          "src/main/resources/data/minecraftplus/worldgen/placed_feature/uranium_ore.json",
+          "src/main/resources/data/minecraftplus/forge/biome_modifier/uranium_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/loot_tables/blocks/uranium_block.json",
+          "src/main/resources/assets/minecraftplus/models/item/uranium_block.json",
+          "src/main/java/net/mcreator/minecraftplus/block/UraniumBlockBlock.java",
+          "src/main/resources/assets/minecraftplus/blockstates/uranium_block.json",
+          "src/main/resources/assets/minecraftplus/models/block/uranium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/recipes/uranium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/recipes/uranium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/recipes/uranium_ore_smelting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:UraniumBlock",
+      "~CUSTOM:UraniumOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:UraniumBlock",
+      "~CUSTOM:UraniumOre"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.minecraftplus.uranium_block": "Block of Uranium",
       "item.minecraftplus.apple_slice": "Apple Slice",
-      "item.minecraftplus.pearslices": "Pear Slice"
+      "block.minecraftplus.uranium_ore": "Uranium Ore",
+      "item.minecraftplus.pearslices": "Pear Slice",
+      "item.minecraftplus.uranium": "Uranium"
     }
   },
   "foldersRoot": {

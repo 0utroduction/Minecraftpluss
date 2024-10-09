@@ -21,7 +21,16 @@ public class MinecraftplusModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+
+			tabData.accept(MinecraftplusModBlocks.URANIUM_ORE.get().asItem());
+			tabData.accept(MinecraftplusModBlocks.URANIUM_BLOCK.get().asItem());
+
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+
+			tabData.accept(MinecraftplusModItems.URANIUM.get());
+
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 
 			tabData.accept(MinecraftplusModItems.APPLE_SLICE.get());
 			tabData.accept(MinecraftplusModItems.PEARSLICES.get());

@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.minecraftplus.init.MinecraftplusModTabs;
 import net.mcreator.minecraftplus.init.MinecraftplusModItems;
+import net.mcreator.minecraftplus.init.MinecraftplusModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -39,6 +40,8 @@ public class MinecraftplusMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MinecraftplusModBlocks.REGISTRY.register(bus);
 
 		MinecraftplusModItems.REGISTRY.register(bus);
 
