@@ -1,45 +1,11 @@
 {
-  "mod_elements": [
-    {
-      "name": "Parlajeet",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "parlajeet",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minecraftplus/item/ParlajeetItem.java",
-          "src/main/resources/assets/minecraftplus/models/item/parlajeet.json"
-        ]
-      }
-    },
-    {
-      "name": "Poop",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "poop",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minecraftplus/procedures/PoopProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "item.minecraftplus.parlajeet": "Parlajeet"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
