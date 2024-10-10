@@ -290,6 +290,52 @@
           "src/main/java/net/mcreator/minecraftplus/world/inventory/MedallionMenuMenu.java"
         ]
       }
+    },
+    {
+      "name": "MedallionMenuKeybindOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medallion_menu_keybind_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/procedures/MedallionMenuKeybindOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MedallionMenuKeybind",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medallion_menu_keybind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/network/MedallionMenuKeybindMessage.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -320,6 +366,7 @@
       "item.minecraftplus.apple_slice": "Apple Slice",
       "block.minecraftplus.uranium_ore": "Uranium Ore",
       "item_group.minecraftplus.medallions": "Medallions",
+      "key.minecraftplus.medallion_menu_keybind": "Medallion Menu Keybind",
       "item.minecraftplus.pearslices": "Pear Slice",
       "item.minecraftplus.uranium": "Uranium",
       "gui.minecraftplus.medallion_menu.label_medallion_menu": "Medallion Menu"
