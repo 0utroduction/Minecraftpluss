@@ -234,6 +234,19 @@
           "src/main/resources/data/minecraftplus/recipes/chainmailboots.json"
         ]
       }
+    },
+    {
+      "name": "Palajeet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palajeet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecraftplus/models/item/palajeet.json",
+          "src/main/java/net/mcreator/minecraftplus/item/PalajeetItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -253,6 +266,7 @@
     "en_us": {
       "item.minecraftplus.diamond_medallion": "Diamond Medallion",
       "block.minecraftplus.uranium_block": "Block of Uranium",
+      "item.minecraftplus.palajeet": "Palajeet",
       "item.minecraftplus.apple_slice": "Apple Slice",
       "block.minecraftplus.uranium_ore": "Uranium Ore",
       "item_group.minecraftplus.medallions": "Medallions",
