@@ -290,6 +290,52 @@
           "src/main/java/net/mcreator/minecraftplus/client/gui/MedallionScreen.java"
         ]
       }
+    },
+    {
+      "name": "MedallionguiopenOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medallionguiopen_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/procedures/MedallionguiopenOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Medallionguiopen",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medallionguiopen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/network/MedallionguiopenMessage.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -320,6 +366,7 @@
       "item.minecraftplus.apple_slice": "Apple Slice",
       "block.minecraftplus.uranium_ore": "Uranium Ore",
       "item_group.minecraftplus.medallions": "Medallions",
+      "key.minecraftplus.medallionguiopen": "Medallionguiopen",
       "item.minecraftplus.pearslices": "Pear Slice",
       "item.minecraftplus.uranium": "Uranium"
     }

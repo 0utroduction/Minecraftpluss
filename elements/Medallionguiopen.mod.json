@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "E",
+    "keyBindingName": "Medallionguiopen",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "MedallionguiopenOnKeyPressed"
+    }
+  }
+}
