@@ -370,6 +370,20 @@
           }
         ]
       }
+    },
+    {
+      "name": "CoalMedalionStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_medalion_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/worldgen/structure/coal_medalion_structure.json",
+          "src/main/resources/data/minecraftplus/worldgen/template_pool/coal_medalion_structure.json",
+          "src/main/resources/data/minecraftplus/worldgen/structure_set/coal_medalion_structure.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
