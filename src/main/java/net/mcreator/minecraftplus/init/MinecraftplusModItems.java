@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.minecraftplus.item.UraniumItem;
+import net.mcreator.minecraftplus.item.RubyItem;
 import net.mcreator.minecraftplus.item.PearslicesItem;
 import net.mcreator.minecraftplus.item.PalajeetItem;
 import net.mcreator.minecraftplus.item.DiamondMedallionItem;
@@ -28,6 +29,7 @@ public class MinecraftplusModItems {
 	public static final RegistryObject<Item> URANIUM_BLOCK = block(MinecraftplusModBlocks.URANIUM_BLOCK);
 	public static final RegistryObject<Item> DIAMOND_MEDALLION = REGISTRY.register("diamond_medallion", () -> new DiamondMedallionItem());
 	public static final RegistryObject<Item> PALAJEET = REGISTRY.register("palajeet", () -> new PalajeetItem());
+	public static final RegistryObject<Item> RUBY = REGISTRY.register("ruby", () -> new RubyItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

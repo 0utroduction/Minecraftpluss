@@ -38,6 +38,7 @@ public class MinecraftplusModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
 			tabData.accept(MinecraftplusModItems.URANIUM.get());
+			tabData.accept(MinecraftplusModItems.RUBY.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 

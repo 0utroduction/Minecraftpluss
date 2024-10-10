@@ -440,6 +440,31 @@
           "src/main/resources/data/minecraftplus/worldgen/template_pool/redstone_medalion_structure.json"
         ]
       }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecraftplus/models/item/ruby.json",
+          "src/main/java/net/mcreator/minecraftplus/item/RubyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyCraftingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/recipes/ruby_crafting_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -467,6 +492,7 @@
       "item.minecraftplus.diamond_medallion": "Diamond Medallion",
       "block.minecraftplus.uranium_block": "Block of Uranium",
       "item.minecraftplus.palajeet": "Palajeet",
+      "item.minecraftplus.ruby": "Ruby",
       "item.minecraftplus.apple_slice": "Apple Slice",
       "block.minecraftplus.uranium_ore": "Uranium Ore",
       "item_group.minecraftplus.medallions": "Medallions",
