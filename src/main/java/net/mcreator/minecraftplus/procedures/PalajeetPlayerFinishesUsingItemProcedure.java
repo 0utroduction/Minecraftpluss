@@ -26,7 +26,15 @@ public class PalajeetPlayerFinishesUsingItemProcedure {
 		} else {
 			if (Mth.nextInt(RandomSource.create(), 1, 100) <= (entity.getCapability(MinecraftplusModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MinecraftplusModVariables.PlayerVariables())).PalajeetPoisoningPercentage) {
 				entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("minecraftplus:palajeet_poisoning")))),
-						Mth.nextInt(RandomSource.create(), 1, 16));
+						Mth.nextInt(RandomSource.create(), 1, 9));
+				entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("minecraftplus:palajeet_poisoning")))),
+						Mth.nextInt(RandomSource.create(), 1, 8));
+				entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("minecraftplus:palajeet_poisoning")))),
+						Mth.nextInt(RandomSource.create(), 1, 7));
+				entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("minecraftplus:palajeet_poisoning")))),
+						Mth.nextInt(RandomSource.create(), 1, 6));
+				entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("minecraftplus:palajeet_poisoning")))),
+						Mth.nextInt(RandomSource.create(), 1, 5));
 			} else {
 				{
 					double _setval = (entity.getCapability(MinecraftplusModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MinecraftplusModVariables.PlayerVariables())).PalajeetPoisoningPercentage + 10;

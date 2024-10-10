@@ -9,7 +9,11 @@
     "states": [],
     "name": "Diamond Medallion",
     "rarity": "RARE",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Medallions"
+      }
+    ],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
