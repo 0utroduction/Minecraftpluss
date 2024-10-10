@@ -465,6 +465,24 @@
           "src/main/resources/data/minecraftplus/recipes/ruby_crafting_recipe.json"
         ]
       }
+    },
+    {
+      "name": "RubyPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/procedures/RubyPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
