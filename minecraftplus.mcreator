@@ -426,6 +426,20 @@
           "src/main/resources/data/minecraftplus/worldgen/template_pool/lapis_medalion_structure.json"
         ]
       }
+    },
+    {
+      "name": "RedstoneMedalionStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_medalion_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/worldgen/structure/redstone_medalion_structure.json",
+          "src/main/resources/data/minecraftplus/worldgen/structure_set/redstone_medalion_structure.json",
+          "src/main/resources/data/minecraftplus/worldgen/template_pool/redstone_medalion_structure.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
