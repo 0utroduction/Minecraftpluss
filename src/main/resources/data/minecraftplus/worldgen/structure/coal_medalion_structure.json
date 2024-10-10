@@ -15,6 +15,9 @@
       "absolute": 50
     }
   },
-  "biomes": "forest",
+  "biomes": [
+    "forest",
+    "flower_forest"
+  ],
   "use_expansion_hack": false
 }

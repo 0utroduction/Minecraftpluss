@@ -14,6 +14,9 @@
     "restrictionBiomes": [
       {
         "value": "forest"
+      },
+      {
+        "value": "mutated_forest"
       }
     ],
     "terrainAdaptation": "none",
