@@ -24,15 +24,17 @@ public class PalajeetPlayerFinishesUsingItemProcedure {
 		} else {
 			if (Mth.nextInt(RandomSource.create(), 1, 100) <= (entity.getCapability(MinecraftplusModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MinecraftplusModVariables.PlayerVariables())).PalajeetPoisoningPercentage) {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 100, 1));
+					_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 240, 1));
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.HUNGER, 100, 100));
+					_entity.addEffect(new MobEffectInstance(MobEffects.HUNGER, 240, 100));
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 100, 0));
+					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 240, 1));
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 100, 0));
+					_entity.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 240, 1));
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 100, 0));
+					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 240, 1));
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 240, 1));
 			} else {
 				{
 					double _setval = (entity.getCapability(MinecraftplusModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MinecraftplusModVariables.PlayerVariables())).PalajeetPoisoningPercentage + 10;
