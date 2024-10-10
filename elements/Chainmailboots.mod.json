@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.CHAIN"
+      "value": "Items.CHAINMAIL_BOOTS"
     },
     "name": "chainmailboots",
     "namespace": "mod"
