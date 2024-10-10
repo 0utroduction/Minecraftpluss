@@ -398,6 +398,34 @@
           "src/main/resources/data/minecraftplus/worldgen/structure_set/iron_medalion_structure.json"
         ]
       }
+    },
+    {
+      "name": "CopperMedalionStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_medalion_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/worldgen/structure_set/copper_medalion_structure.json",
+          "src/main/resources/data/minecraftplus/worldgen/template_pool/copper_medalion_structure.json",
+          "src/main/resources/data/minecraftplus/worldgen/structure/copper_medalion_structure.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisMedalionStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_medalion_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/worldgen/structure_set/lapis_medalion_structure.json",
+          "src/main/resources/data/minecraftplus/worldgen/structure/lapis_medalion_structure.json",
+          "src/main/resources/data/minecraftplus/worldgen/template_pool/lapis_medalion_structure.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
