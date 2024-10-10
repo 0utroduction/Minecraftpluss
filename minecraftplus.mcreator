@@ -384,6 +384,20 @@
           "src/main/resources/data/minecraftplus/worldgen/structure_set/coal_medalion_structure.json"
         ]
       }
+    },
+    {
+      "name": "IronMedalionStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_medalion_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/worldgen/template_pool/iron_medalion_structure.json",
+          "src/main/resources/data/minecraftplus/worldgen/structure/iron_medalion_structure.json",
+          "src/main/resources/data/minecraftplus/worldgen/structure_set/iron_medalion_structure.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
