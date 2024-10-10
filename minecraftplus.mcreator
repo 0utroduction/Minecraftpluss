@@ -8,8 +8,8 @@
       "registry_name": "apple_slice",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minecraftplus/item/AppleSliceItem.java",
-          "src/main/resources/assets/minecraftplus/models/item/apple_slice.json"
+          "src/main/resources/assets/minecraftplus/models/item/apple_slice.json",
+          "src/main/java/net/mcreator/minecraftplus/item/AppleSliceItem.java"
         ]
       }
     },

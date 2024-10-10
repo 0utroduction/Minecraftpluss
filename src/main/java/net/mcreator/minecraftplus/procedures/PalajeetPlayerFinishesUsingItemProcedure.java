@@ -35,6 +35,8 @@ public class PalajeetPlayerFinishesUsingItemProcedure {
 					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 240, 1));
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 240, 1));
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 120, 1));
 			} else {
 				{
 					double _setval = (entity.getCapability(MinecraftplusModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MinecraftplusModVariables.PlayerVariables())).PalajeetPoisoningPercentage + 10;
