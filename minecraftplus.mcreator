@@ -277,6 +277,19 @@
           }
         ]
       }
+    },
+    {
+      "name": "Medallion",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medallion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/world/inventory/MedallionMenu.java",
+          "src/main/java/net/mcreator/minecraftplus/client/gui/MedallionScreen.java"
+        ]
+      }
     }
   ],
   "variable_elements": [

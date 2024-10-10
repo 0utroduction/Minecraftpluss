@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.minecraftplus.init.MinecraftplusModTabs;
+import net.mcreator.minecraftplus.init.MinecraftplusModMenus;
 import net.mcreator.minecraftplus.init.MinecraftplusModItems;
 import net.mcreator.minecraftplus.init.MinecraftplusModBlocks;
 
@@ -46,6 +47,8 @@ public class MinecraftplusMod {
 		MinecraftplusModItems.REGISTRY.register(bus);
 
 		MinecraftplusModTabs.REGISTRY.register(bus);
+
+		MinecraftplusModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
