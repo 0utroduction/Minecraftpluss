@@ -277,6 +277,19 @@
           }
         ]
       }
+    },
+    {
+      "name": "MedallionMenu",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medallion_menu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/client/gui/MedallionMenuScreen.java",
+          "src/main/java/net/mcreator/minecraftplus/world/inventory/MedallionMenuMenu.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -308,7 +321,8 @@
       "block.minecraftplus.uranium_ore": "Uranium Ore",
       "item_group.minecraftplus.medallions": "Medallions",
       "item.minecraftplus.pearslices": "Pear Slice",
-      "item.minecraftplus.uranium": "Uranium"
+      "item.minecraftplus.uranium": "Uranium",
+      "gui.minecraftplus.medallion_menu.label_medallion_menu": "Medallion Menu"
     }
   },
   "foldersRoot": {
