@@ -2,12 +2,9 @@
   "item.minecraftplus.diamond_medallion": "Diamond Medallion",
   "block.minecraftplus.uranium_block": "Block of Uranium",
   "item.minecraftplus.palajeet": "Palajeet",
-  "death.attack.palajeet_poisoning.player": "%1$s died whilst trying to escape %2$s",
   "item.minecraftplus.apple_slice": "Apple Slice",
   "block.minecraftplus.uranium_ore": "Uranium Ore",
   "item_group.minecraftplus.medallions": "Medallions",
-  "death.attack.palajeet_poisoning": "%1$s Palajeeted away",
-  "death.attack.palajeet_poisoning.item": "%1$s was killed by %2$s using %3$s",
   "item.minecraftplus.pearslices": "Pear Slice",
   "item.minecraftplus.uranium": "Uranium"
 }

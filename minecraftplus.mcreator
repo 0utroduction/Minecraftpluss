@@ -261,18 +261,6 @@
       }
     },
     {
-      "name": "PalajeetPoisoning",
-      "type": "damagetype",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "palajeet_poisoning",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraftplus/damage_type/palajeet_poisoning.json"
-        ]
-      }
-    },
-    {
       "name": "PalajeetPlayerFinishesUsingItem",
       "type": "procedure",
       "compiles": true,
@@ -286,10 +274,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -320,12 +304,9 @@
       "item.minecraftplus.diamond_medallion": "Diamond Medallion",
       "block.minecraftplus.uranium_block": "Block of Uranium",
       "item.minecraftplus.palajeet": "Palajeet",
-      "death.attack.palajeet_poisoning.player": "%1$s died whilst trying to escape %2$s",
       "item.minecraftplus.apple_slice": "Apple Slice",
       "block.minecraftplus.uranium_ore": "Uranium Ore",
       "item_group.minecraftplus.medallions": "Medallions",
-      "death.attack.palajeet_poisoning": "%1$s Palajeeted away",
-      "death.attack.palajeet_poisoning.item": "%1$s was killed by %2$s using %3$s",
       "item.minecraftplus.pearslices": "Pear Slice",
       "item.minecraftplus.uranium": "Uranium"
     }

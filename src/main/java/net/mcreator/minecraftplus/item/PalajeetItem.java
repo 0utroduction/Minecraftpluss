@@ -31,7 +31,7 @@ public class PalajeetItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		PalajeetPlayerFinishesUsingItemProcedure.execute(world, entity);
+		PalajeetPlayerFinishesUsingItemProcedure.execute(entity);
 		return retval;
 	}
 }
