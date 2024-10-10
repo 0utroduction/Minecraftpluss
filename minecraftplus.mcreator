@@ -247,6 +247,18 @@
           "src/main/java/net/mcreator/minecraftplus/item/PalajeetItem.java"
         ]
       }
+    },
+    {
+      "name": "PalajeetCraphtingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palajeet_craphting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/recipes/palajeet_craphting_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
