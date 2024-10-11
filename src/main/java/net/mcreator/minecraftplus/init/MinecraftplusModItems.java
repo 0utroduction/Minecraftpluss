@@ -7,6 +7,7 @@ package net.mcreator.minecraftplus.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -38,6 +39,7 @@ public class MinecraftplusModItems {
 	public static final RegistryObject<Item> MERCURY_BLOCK = block(MinecraftplusModBlocks.MERCURY_BLOCK);
 	public static final RegistryObject<Item> MERCURY_BUCKET = REGISTRY.register("mercury_bucket", () -> new MercuryItem());
 	public static final RegistryObject<Item> MERCURY_ARMOR_ARMOR_HELMET = REGISTRY.register("mercury_armor_armor_helmet", () -> new MercuryArmorArmorItem.Helmet());
+	public static final RegistryObject<Item> BUB_SPAWN_EGG = REGISTRY.register("bub_spawn_egg", () -> new ForgeSpawnEggItem(MinecraftplusModEntities.BUB, -15359276, -595271, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

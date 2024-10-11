@@ -676,6 +676,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "Bub",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bub",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/client/renderer/BubRenderer.java",
+          "src/main/resources/assets/minecraftplus/models/item/bub_spawn_egg.json",
+          "src/main/resources/data/minecraftplus/forge/biome_modifier/bub_biome_modifier.json",
+          "src/main/java/net/mcreator/minecraftplus/entity/BubEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -719,7 +734,9 @@
       "item_group.minecraftplus.medallions": "Medallions",
       "item.minecraftplus.mercury_bucket": "Bucket of room temperature Mercury",
       "item.minecraftplus.uranium": "Uranium",
+      "entity.minecraftplus.bub": "Bub",
       "gui.minecraftplus.medallion_menu.label_medallion_menu": "Medallion Menu",
+      "item.minecraftplus.bub_spawn_egg": "Bub Spawn Egg",
       "item.minecraftplus.ruby": "Ruby",
       "block.minecraftplus.mercury": "Mercury",
       "key.minecraftplus.medallion_menu_keybind": "Medallion Menu Keybind",

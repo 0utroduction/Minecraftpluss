@@ -22,6 +22,7 @@ import net.mcreator.minecraftplus.init.MinecraftplusModMenus;
 import net.mcreator.minecraftplus.init.MinecraftplusModItems;
 import net.mcreator.minecraftplus.init.MinecraftplusModFluids;
 import net.mcreator.minecraftplus.init.MinecraftplusModFluidTypes;
+import net.mcreator.minecraftplus.init.MinecraftplusModEntities;
 import net.mcreator.minecraftplus.init.MinecraftplusModBlocks;
 
 import java.util.function.Supplier;
@@ -47,6 +48,7 @@ public class MinecraftplusMod {
 		MinecraftplusModBlocks.REGISTRY.register(bus);
 
 		MinecraftplusModItems.REGISTRY.register(bus);
+		MinecraftplusModEntities.REGISTRY.register(bus);
 
 		MinecraftplusModTabs.REGISTRY.register(bus);
 

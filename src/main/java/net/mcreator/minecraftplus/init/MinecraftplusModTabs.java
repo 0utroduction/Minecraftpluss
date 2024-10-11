@@ -41,6 +41,10 @@ public class MinecraftplusModTabs {
 
 			tabData.accept(MinecraftplusModItems.MERCURY_ARMOR_ARMOR_HELMET.get());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+
+			tabData.accept(MinecraftplusModItems.BUB_SPAWN_EGG.get());
+
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
 			tabData.accept(MinecraftplusModItems.URANIUM.get());
