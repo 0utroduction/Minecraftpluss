@@ -8,6 +8,6 @@ public class RubyPlayerFinishesUsingItemProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player)
-			_player.giveExperiencePoints((int) ((entity instanceof Player _plr ? _plr.experienceLevel : 0) - 1));
+			_player.giveExperiencePoints((int) ((entity instanceof Player _plr ? _plr.experienceLevel : 0) + 1 + (entity instanceof Player _plr ? _plr.experienceLevel : 0) / 5));
 	}
 }
