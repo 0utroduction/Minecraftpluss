@@ -14,6 +14,7 @@ import net.mcreator.minecraftplus.block.UraniumOreBlock;
 import net.mcreator.minecraftplus.block.UraniumBlockBlock;
 import net.mcreator.minecraftplus.block.MercuryOreBlock;
 import net.mcreator.minecraftplus.block.MercuryBlockBlock;
+import net.mcreator.minecraftplus.block.MercuryBlock;
 import net.mcreator.minecraftplus.MinecraftplusMod;
 
 public class MinecraftplusModBlocks {
@@ -22,6 +23,7 @@ public class MinecraftplusModBlocks {
 	public static final RegistryObject<Block> URANIUM_BLOCK = REGISTRY.register("uranium_block", () -> new UraniumBlockBlock());
 	public static final RegistryObject<Block> MERCURY_ORE = REGISTRY.register("mercury_ore", () -> new MercuryOreBlock());
 	public static final RegistryObject<Block> MERCURY_BLOCK = REGISTRY.register("mercury_block", () -> new MercuryBlockBlock());
+	public static final RegistryObject<Block> MERCURY = REGISTRY.register("mercury", () -> new MercuryBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

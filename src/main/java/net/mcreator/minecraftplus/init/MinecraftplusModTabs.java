@@ -50,6 +50,10 @@ public class MinecraftplusModTabs {
 			tabData.accept(MinecraftplusModItems.URANIUM.get());
 			tabData.accept(MinecraftplusModItems.PALAJEET.get());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+
+			tabData.accept(MinecraftplusModItems.MERCURY_BUCKET.get());
+
 		}
 	}
 }

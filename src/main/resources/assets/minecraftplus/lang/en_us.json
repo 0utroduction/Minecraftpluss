@@ -6,11 +6,14 @@
   "item.minecraftplus.apple_slice": "Apple Slice",
   "block.minecraftplus.uranium_ore": "Uranium Ore",
   "item_group.minecraftplus.medallions": "Medallions",
+  "item.minecraftplus.mercury_bucket": "Bucket of room temperature Mercury",
   "item.minecraftplus.uranium": "Uranium",
   "gui.minecraftplus.medallion_menu.label_medallion_menu": "Medallion Menu",
   "item.minecraftplus.ruby": "Ruby",
+  "block.minecraftplus.mercury": "Mercury",
   "key.minecraftplus.medallion_menu_keybind": "Medallion Menu Keybind",
   "item.minecraftplus.pearslices": "Pear Slice",
   "block.minecraftplus.mercury_block": "Block of Mercury",
+  "fluid.minecraftplus.mercury": "Mercury",
   "item.minecraftplus.mercury_ingot": "Mercury"
 }

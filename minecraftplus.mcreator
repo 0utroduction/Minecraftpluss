@@ -567,6 +567,54 @@
           "src/main/resources/data/minecraftplus/recipes/mercury_ore_smelting.json"
         ]
       }
+    },
+    {
+      "name": "Mercury",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mercury",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/fluid/MercuryFluid.java",
+          "src/main/resources/assets/minecraftplus/models/item/mercury_bucket.json",
+          "src/main/resources/assets/minecraftplus/models/block/mercury.json",
+          "src/main/resources/assets/minecraftplus/blockstates/mercury.json",
+          "src/main/java/net/mcreator/minecraftplus/block/MercuryBlock.java",
+          "src/main/java/net/mcreator/minecraftplus/fluid/types/MercuryFluidType.java",
+          "src/main/java/net/mcreator/minecraftplus/item/MercuryItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MercuryOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mercury_ore_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/procedures/MercuryOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -583,6 +631,9 @@
       "~CUSTOM:MercuryOre",
       "~CUSTOM:UraniumBlock",
       "~CUSTOM:UraniumOre"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Mercury"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MercuryBlock",
@@ -604,12 +655,15 @@
       "item.minecraftplus.apple_slice": "Apple Slice",
       "block.minecraftplus.uranium_ore": "Uranium Ore",
       "item_group.minecraftplus.medallions": "Medallions",
+      "item.minecraftplus.mercury_bucket": "Bucket of room temperature Mercury",
       "item.minecraftplus.uranium": "Uranium",
       "gui.minecraftplus.medallion_menu.label_medallion_menu": "Medallion Menu",
       "item.minecraftplus.ruby": "Ruby",
+      "block.minecraftplus.mercury": "Mercury",
       "key.minecraftplus.medallion_menu_keybind": "Medallion Menu Keybind",
       "item.minecraftplus.pearslices": "Pear Slice",
       "block.minecraftplus.mercury_block": "Block of Mercury",
+      "fluid.minecraftplus.mercury": "Mercury",
       "item.minecraftplus.mercury_ingot": "Mercury"
     }
   },

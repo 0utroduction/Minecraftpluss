@@ -20,6 +20,8 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.minecraftplus.init.MinecraftplusModTabs;
 import net.mcreator.minecraftplus.init.MinecraftplusModMenus;
 import net.mcreator.minecraftplus.init.MinecraftplusModItems;
+import net.mcreator.minecraftplus.init.MinecraftplusModFluids;
+import net.mcreator.minecraftplus.init.MinecraftplusModFluidTypes;
 import net.mcreator.minecraftplus.init.MinecraftplusModBlocks;
 
 import java.util.function.Supplier;
@@ -49,6 +51,8 @@ public class MinecraftplusMod {
 		MinecraftplusModTabs.REGISTRY.register(bus);
 
 		MinecraftplusModMenus.REGISTRY.register(bus);
+		MinecraftplusModFluids.REGISTRY.register(bus);
+		MinecraftplusModFluidTypes.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
