@@ -25,7 +25,7 @@ public class MinecraftplusModEntities {
 	public static final RegistryObject<EntityType<BubEntity>> BUB = register("bub",
 			EntityType.Builder.<BubEntity>of(BubEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BubEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 0.93f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

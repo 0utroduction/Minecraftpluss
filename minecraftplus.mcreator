@@ -685,10 +685,10 @@
       "registry_name": "bub",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minecraftplus/client/renderer/BubRenderer.java",
           "src/main/resources/assets/minecraftplus/models/item/bub_spawn_egg.json",
+          "src/main/java/net/mcreator/minecraftplus/entity/BubEntity.java",
           "src/main/resources/data/minecraftplus/forge/biome_modifier/bub_biome_modifier.json",
-          "src/main/java/net/mcreator/minecraftplus/entity/BubEntity.java"
+          "src/main/java/net/mcreator/minecraftplus/client/renderer/BubRenderer.java"
         ]
       }
     }
