@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Bub",
     "mobLabel": "",
-    "mobModelName": "Modelagent_Converted",
+    "mobModelName": "Modelagent",
     "mobModelTexture": "bub.png",
     "transparentModelCondition": {
       "fixedValue": false
