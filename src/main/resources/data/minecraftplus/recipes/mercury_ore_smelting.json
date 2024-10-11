@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0.42,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "minecraftplus:mercury_ore"
+  },
+  "result": "minecraftplus:mercury_ingot"
+}

@@ -483,6 +483,90 @@
           }
         ]
       }
+    },
+    {
+      "name": "MercuryIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mercury_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/item/MercuryIngotItem.java",
+          "src/main/resources/assets/minecraftplus/models/item/mercury_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "MercuryOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mercury_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecraftplus/blockstates/mercury_ore.json",
+          "src/main/resources/assets/minecraftplus/models/item/mercury_ore.json",
+          "src/main/java/net/mcreator/minecraftplus/block/MercuryOreBlock.java",
+          "src/main/resources/data/minecraftplus/worldgen/placed_feature/mercury_ore.json",
+          "src/main/resources/data/minecraftplus/forge/biome_modifier/mercury_ore_biome_modifier.json",
+          "src/main/resources/assets/minecraftplus/models/block/mercury_ore.json",
+          "src/main/resources/data/minecraftplus/loot_tables/blocks/mercury_ore.json",
+          "src/main/resources/data/minecraftplus/worldgen/configured_feature/mercury_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "MercuryBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mercury_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/loot_tables/blocks/mercury_block.json",
+          "src/main/resources/assets/minecraftplus/models/block/mercury_block.json",
+          "src/main/resources/assets/minecraftplus/models/item/mercury_block.json",
+          "src/main/java/net/mcreator/minecraftplus/block/MercuryBlockBlock.java",
+          "src/main/resources/assets/minecraftplus/blockstates/mercury_block.json"
+        ]
+      }
+    },
+    {
+      "name": "MercuryOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mercury_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/recipes/mercury_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MercuryBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mercury_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/recipes/mercury_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MercuryOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mercury_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/recipes/mercury_ore_smelting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -496,12 +580,18 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:MercuryOre",
       "~CUSTOM:UraniumBlock",
       "~CUSTOM:UraniumOre"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MercuryBlock",
+      "~CUSTOM:MercuryOre",
       "~CUSTOM:UraniumBlock",
       "~CUSTOM:UraniumOre"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:MercuryBlock"
     ]
   },
   "tab_element_order": {},
@@ -510,14 +600,17 @@
       "item.minecraftplus.diamond_medallion": "Diamond Medallion",
       "block.minecraftplus.uranium_block": "Block of Uranium",
       "item.minecraftplus.palajeet": "Palajeet",
-      "item.minecraftplus.ruby": "Ruby",
+      "block.minecraftplus.mercury_ore": "Mercury Ore",
       "item.minecraftplus.apple_slice": "Apple Slice",
       "block.minecraftplus.uranium_ore": "Uranium Ore",
       "item_group.minecraftplus.medallions": "Medallions",
+      "item.minecraftplus.uranium": "Uranium",
+      "gui.minecraftplus.medallion_menu.label_medallion_menu": "Medallion Menu",
+      "item.minecraftplus.ruby": "Ruby",
       "key.minecraftplus.medallion_menu_keybind": "Medallion Menu Keybind",
       "item.minecraftplus.pearslices": "Pear Slice",
-      "item.minecraftplus.uranium": "Uranium",
-      "gui.minecraftplus.medallion_menu.label_medallion_menu": "Medallion Menu"
+      "block.minecraftplus.mercury_block": "Block of Mercury",
+      "item.minecraftplus.mercury_ingot": "Mercury"
     }
   },
   "foldersRoot": {

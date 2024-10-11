@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "minecraftplus:blocks/mercury_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraftplus:mercury_block"
+        }
+      ]
+    }
+  ]
+}

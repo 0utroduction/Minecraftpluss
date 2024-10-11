@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraftplus:mercury_ore",
     "minecraftplus:uranium_block",
     "minecraftplus:uranium_ore"
   ]

@@ -34,11 +34,14 @@ public class MinecraftplusModTabs {
 
 			tabData.accept(MinecraftplusModBlocks.URANIUM_ORE.get().asItem());
 			tabData.accept(MinecraftplusModBlocks.URANIUM_BLOCK.get().asItem());
+			tabData.accept(MinecraftplusModBlocks.MERCURY_ORE.get().asItem());
+			tabData.accept(MinecraftplusModBlocks.MERCURY_BLOCK.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
 			tabData.accept(MinecraftplusModItems.URANIUM.get());
 			tabData.accept(MinecraftplusModItems.RUBY.get());
+			tabData.accept(MinecraftplusModItems.MERCURY_INGOT.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 

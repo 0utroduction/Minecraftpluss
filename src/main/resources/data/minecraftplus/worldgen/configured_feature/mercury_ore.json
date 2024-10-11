@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 11,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "forge:stone"
+        },
+        "state": {
+          "Name": "minecraftplus:mercury_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "state": {
+          "Name": "minecraftplus:mercury_ore"
+        }
+      }
+    ]
+  }
+}

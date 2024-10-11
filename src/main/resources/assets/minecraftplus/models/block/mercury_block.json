@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minecraftplus:block/mercury_ore_block",
+    "particle": "minecraftplus:block/mercury_ore_block"
+  },
+  "render_type": "solid"
+}
