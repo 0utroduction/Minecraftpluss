@@ -37,6 +37,10 @@ public class MinecraftplusModTabs {
 			tabData.accept(MinecraftplusModBlocks.MERCURY_ORE.get().asItem());
 			tabData.accept(MinecraftplusModBlocks.MERCURY_BLOCK.get().asItem());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+
+			tabData.accept(MinecraftplusModItems.MERCURY_ARMOR_ARMOR_HELMET.get());
+
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
 			tabData.accept(MinecraftplusModItems.URANIUM.get());

@@ -615,6 +615,49 @@
           }
         ]
       }
+    },
+    {
+      "name": "MercuryArmorArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mercury_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/item/MercuryArmorArmorItem.java",
+          "src/main/resources/assets/minecraftplus/models/item/mercury_armor_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "MercuryArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mercury_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/recipes/mercury_armor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MercuryArmorArmorHelmetTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mercury_armor_armor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/procedures/MercuryArmorArmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -651,6 +694,7 @@
       "item.minecraftplus.diamond_medallion": "Diamond Medallion",
       "block.minecraftplus.uranium_block": "Block of Uranium",
       "item.minecraftplus.palajeet": "Palajeet",
+      "item.minecraftplus.mercury_armor_armor_helmet": "Mercury Hat",
       "block.minecraftplus.mercury_ore": "Mercury Ore",
       "item.minecraftplus.apple_slice": "Apple Slice",
       "block.minecraftplus.uranium_ore": "Uranium Ore",

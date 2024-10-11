@@ -18,6 +18,7 @@ import net.mcreator.minecraftplus.item.PearslicesItem;
 import net.mcreator.minecraftplus.item.PalajeetItem;
 import net.mcreator.minecraftplus.item.MercuryItem;
 import net.mcreator.minecraftplus.item.MercuryIngotItem;
+import net.mcreator.minecraftplus.item.MercuryArmorArmorItem;
 import net.mcreator.minecraftplus.item.DiamondMedallionItem;
 import net.mcreator.minecraftplus.item.AppleSliceItem;
 import net.mcreator.minecraftplus.MinecraftplusMod;
@@ -36,6 +37,7 @@ public class MinecraftplusModItems {
 	public static final RegistryObject<Item> MERCURY_ORE = block(MinecraftplusModBlocks.MERCURY_ORE);
 	public static final RegistryObject<Item> MERCURY_BLOCK = block(MinecraftplusModBlocks.MERCURY_BLOCK);
 	public static final RegistryObject<Item> MERCURY_BUCKET = REGISTRY.register("mercury_bucket", () -> new MercuryItem());
+	public static final RegistryObject<Item> MERCURY_ARMOR_ARMOR_HELMET = REGISTRY.register("mercury_armor_armor_helmet", () -> new MercuryArmorArmorItem.Helmet());
 
 	// Start of user code block custom items
 	// End of user code block custom items
