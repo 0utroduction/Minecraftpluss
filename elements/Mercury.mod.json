@@ -42,9 +42,6 @@
     "tickRate": 0,
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "colorOnMap": "DEFAULT",
-    "onEntityCollides": {
-      "name": "MercuryMobplayerCollidesBlock"
-    }
+    "colorOnMap": "DEFAULT"
   }
 }
