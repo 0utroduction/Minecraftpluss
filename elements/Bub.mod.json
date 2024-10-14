@@ -127,7 +127,7 @@
     "tameable": false,
     "breedTriggerItems": [
       {
-        "value": "CUSTOM:AppleSlice"
+        "value": "Items.APPLE"
       }
     ],
     "ranged": false,

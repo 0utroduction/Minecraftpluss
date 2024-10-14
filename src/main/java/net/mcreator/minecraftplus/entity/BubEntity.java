@@ -8,6 +8,7 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -30,7 +31,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.minecraftplus.init.MinecraftplusModItems;
 import net.mcreator.minecraftplus.init.MinecraftplusModEntities;
 
 public class BubEntity extends Animal {
@@ -96,7 +96,7 @@ public class BubEntity extends Animal {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return Ingredient.of(new ItemStack(MinecraftplusModItems.APPLE_SLICE.get())).test(stack);
+		return Ingredient.of(new ItemStack(Items.APPLE)).test(stack);
 	}
 
 	@Override

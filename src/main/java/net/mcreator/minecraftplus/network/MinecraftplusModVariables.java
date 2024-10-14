@@ -67,6 +67,7 @@ public class MinecraftplusModVariables {
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.PalajeetPoisoningPercentage = original.PalajeetPoisoningPercentage;
+			clone.MelonConsumptionAmount = original.MelonConsumptionAmount;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -104,6 +105,7 @@ public class MinecraftplusModVariables {
 
 	public static class PlayerVariables {
 		public double PalajeetPoisoningPercentage = 0;
+		public double MelonConsumptionAmount = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -113,12 +115,14 @@ public class MinecraftplusModVariables {
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("PalajeetPoisoningPercentage", PalajeetPoisoningPercentage);
+			nbt.putDouble("MelonConsumptionAmount", MelonConsumptionAmount);
 			return nbt;
 		}
 
 		public void readNBT(Tag tag) {
 			CompoundTag nbt = (CompoundTag) tag;
 			PalajeetPoisoningPercentage = nbt.getDouble("PalajeetPoisoningPercentage");
+			MelonConsumptionAmount = nbt.getDouble("MelonConsumptionAmount");
 		}
 	}
 
@@ -144,6 +148,7 @@ public class MinecraftplusModVariables {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.PalajeetPoisoningPercentage = message.data.PalajeetPoisoningPercentage;
+					variables.MelonConsumptionAmount = message.data.MelonConsumptionAmount;
 				}
 			});
 			context.setPacketHandled(true);

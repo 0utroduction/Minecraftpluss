@@ -685,10 +685,80 @@
       "registry_name": "bub",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minecraftplus/models/item/bub_spawn_egg.json",
           "src/main/java/net/mcreator/minecraftplus/entity/BubEntity.java",
           "src/main/resources/data/minecraftplus/forge/biome_modifier/bub_biome_modifier.json",
-          "src/main/java/net/mcreator/minecraftplus/client/renderer/BubRenderer.java"
+          "src/main/java/net/mcreator/minecraftplus/client/renderer/BubRenderer.java",
+          "src/main/resources/assets/minecraftplus/models/item/bub_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonONe",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_o_ne",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/advancements/melon_o_ne.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonTen",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_ten",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/advancements/melon_ten.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonHundred",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_hundred",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/advancements/melon_hundred.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonThousand",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_thousand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftplus/advancements/melon_thousand.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonVarIncrease",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_var_increase",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftplus/procedures/MelonVarIncreaseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
         ]
       }
     }
@@ -696,6 +766,12 @@
   "variable_elements": [
     {
       "name": "PalajeetPoisoningPercentage",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "MelonConsumptionAmount",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -724,26 +800,34 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.minecraftplus.diamond_medallion": "Diamond Medallion",
       "block.minecraftplus.uranium_block": "Block of Uranium",
-      "item.minecraftplus.palajeet": "Palajeet",
       "item.minecraftplus.mercury_armor_armor_helmet": "Mercury Hat",
-      "block.minecraftplus.mercury_ore": "Mercury Ore",
       "item.minecraftplus.apple_slice": "Apple Slice",
+      "advancements.melon_o_ne.descr": "Eat a melon",
+      "entity.minecraftplus.bub": "Bub",
+      "gui.minecraftplus.medallion_menu.label_medallion_menu": "Medallion Menu",
+      "item.minecraftplus.ruby": "Ruby",
+      "block.minecraftplus.mercury": "Mercury",
+      "advancements.melon_hundred.title": "Even More Yummy!",
+      "block.minecraftplus.mercury_block": "Block of Mercury",
+      "item.minecraftplus.mercury_ingot": "Mercury",
+      "advancements.melon_hundred.descr": "Eat 100 Melons",
+      "item.minecraftplus.diamond_medallion": "Diamond Medallion",
+      "item.minecraftplus.palajeet": "Palajeet",
+      "block.minecraftplus.mercury_ore": "Mercury Ore",
       "block.minecraftplus.uranium_ore": "Uranium Ore",
       "item_group.minecraftplus.medallions": "Medallions",
       "item.minecraftplus.mercury_bucket": "Bucket of room temperature Mercury",
       "item.minecraftplus.uranium": "Uranium",
-      "entity.minecraftplus.bub": "Bub",
-      "gui.minecraftplus.medallion_menu.label_medallion_menu": "Medallion Menu",
+      "advancements.melon_thousand.title": "Are You Alright?",
       "item.minecraftplus.bub_spawn_egg": "Bub Spawn Egg",
-      "item.minecraftplus.ruby": "Ruby",
-      "block.minecraftplus.mercury": "Mercury",
+      "advancements.melon_ten.descr": "Eat 10 Melons",
+      "advancements.melon_o_ne.title": "Yummy!",
       "key.minecraftplus.medallion_menu_keybind": "Medallion Menu Keybind",
+      "advancements.melon_thousand.descr": "Eat 1000 Melons",
       "item.minecraftplus.pearslices": "Pear Slice",
-      "block.minecraftplus.mercury_block": "Block of Mercury",
       "fluid.minecraftplus.mercury": "Mercury",
-      "item.minecraftplus.mercury_ingot": "Mercury"
+      "advancements.melon_ten.title": "More Yummy!"
     }
   },
   "foldersRoot": {
